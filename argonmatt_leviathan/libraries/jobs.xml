@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<diff>
+ 	<add sel="//jobs">
+			<job id="argon_battleship_escort_xl" name="Patrol Battleship" startactive="false">
+				<orders>
+				  <order order="Escort" default="true">
+					<param name="formation" value="formationshape.invvshape"/>
+					<param name="overrideformationskill" value="true"/>
+				  </order>
+				</orders>
+				<category faction="argon" tags="[military, battleship]" size="ship_xl"/>
+				<quota wing="1"/>
+				<location class="galaxy" macro="xu_ep2_universe_macro"/>
+				<environment buildatshipyard="true"/>
+				<modifiers subordinate="true"/>
+				<ship>
+				  <select faction="argon" tags="[military, battleship]" size="ship_xl"/>
+				  <loadout>
+					<level exact="1.0"/>
+				  </loadout>
+				  <owner exact="argon" overridenpc="true"/>
+				</ship>
+				<subordinates>
+				  <subordinate job="argon_frigate_escort_m"/>
+				</subordinates>
+			  </job>
+	</add>
+	<add sel="//job[@id='argon_carrier_patrol_xl_center_galaxy']/subordinates">
+		<subordinate job="argon_battleship_escort_xl"/>
+	</add>
+</diff>

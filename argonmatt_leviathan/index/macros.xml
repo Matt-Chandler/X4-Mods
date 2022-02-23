@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ?xml-stylesheet href="index.xsl" type="text\xsl" ? -->
+<index>
+		<entry name="leviathan_macro" value="extensions\argonmatt_leviathan\assets\units\size_xl\macros\leviathan_macro" />
+		
+		<!-- Custom M shipstorage capacity-->
+		<entry name="shipstorage_matt_m_leviathan_macro" value="extensions\argonmatt_leviathan\assets\props\SurfaceElements\macros\shipstorage_matt_m_leviathan_macro" />
+		<!-- Custom Main storage capacity-->
+		<entry name="storage_leviathan_macro" value="\extensions\argonmatt_leviathan\assets\units\size_xl\macros\storage_leviathan_macro" />
+</index>

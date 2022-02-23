@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/wares">
+		<ware id="leviathan_ware" name="{999832,2}" description="{999832,3}" group="ships_argon" transport="ship" volume="1" tags="ship">
+			<price min="25418821" average="28498612" max="31547268" />
+			<production time="50" amount="1" method="default" name="{999832,4}">
+				<primary>
+					<ware ware="energycells" amount="5000" />
+					<ware ware="hullparts" amount="18000" />
+				</primary>
+			</production>
+			<component ref="leviathan_macro" amount="1" />
+			<restriction licence="capitalship"/>
+			<owner faction="argon"/>
+		</ware>
+	</add>
+</diff>

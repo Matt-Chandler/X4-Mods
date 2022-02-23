@@ -1,0 +1,7 @@
+4.22 Changelog for Argon Leviathan
+
+- Added German Language for extension description, and ingame description. (Via Google Translate, apologies if there are some mistakes)
+- Added Ability for NPC AI to use 1x Leviathan as part of the main patrol fleet in Argon Prime. (A Leviathan should spawn instantly upon 
+	new game creation. For existing save-games, it may take a while for the Argons to build up enough resources to construct a new Leviathan)
+
+Thanks everyone :-)

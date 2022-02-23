@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+	<add sel="/language">
+		<page id="999832" title="Leviathan" descr="Leviathan" voice="yes">
+			<t id="1">Leviathan</t>
+			<t id="2">(Leviathan) {999832,4}</t>
+			<t id="3">Only very recently developed, the Argon Leviathan is the current apex of Argon military technology, found patrolling core Argon sectors which require the most impenetrable defense. For combat ships of such a large caliber, the Leviathan packs well rounded characteristics. It boasts an impressive array of weaponry, fitting 6 already advanced Behemoth main batteries for an amount of forward firepower that will make its capital adversaries shudder. The surface of the Leviathan is bristling with an extensive array of turrets rendering small fighter incursions against the Leviathan practically inconsequential, and simultaneously augments the Leviathan's anti capital capability. The Leviathan is essentially an expansive mobile fortress, and any force brave enough to assault this beast should conduct attacks with extreme caution. </t>
+			<t id="4">Leviathan</t>
+		</page>
+	</add>
+</diff>

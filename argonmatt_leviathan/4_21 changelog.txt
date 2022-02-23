@@ -1,0 +1,12 @@
+4.21 Changelog for Argon Leviathan
+
+- Added Russian Language for extension description, and ingame description.
+- Added Japanese Language for extension description, and ingame description.
+- Moderately nerfed pitch / yaw / roll speeds (Drag 950 -> 1350) The aim of this change is to make it slightly harder for the player 
+    to get main batteries onto a target capital ship, and make it more difficult for the leviathan to respond to flanking capital threats.
+    Also provides incentive for upgrading XL thrusters to MKII or MKIII 
+- Very slightly slowed the ships maximum normal speed. (Drag 210 -> 220)
+- Increased missile carry capability value. (Was 320 to 1100. Slightly less than ATF Asgard. This was forgotten on the original release.)
+- Fixed a small smoothness / vertex colour visual issue on the main arms of part_main-lod1.
+
+NPC support for Leviathan coming soon, hopefully :D

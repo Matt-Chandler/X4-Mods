@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- leviathan_macro.xml - Created by Argon_Matt -->
+<macros>
+  <macro name="leviathan_macro" class="ship_xl">
+    <component ref="leviathan" />
+
+    <!-- PROPERTIES -->
+    <properties>
+      <identification name="{999832,2}" basename="{999832,1}" description="{999832,3}" variation="{20111,1101}" shortvariation="{20111,1103}" icon="ship_xl_fight_01" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk2" default="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <explosiondamage value="15000" />
+      <storage missile="1200" unit="20" />
+      <hull max="216000" />
+      <secrecy level="2" />
+      <purpose primary="fight" />
+      <people capacity="150" />
+      <sounds>
+        <shipdetail ref="shipdetail_ship_xl_01" />
+      </sounds>
+      <physics mass="549.202">
+        <inertia pitch="617.044" yaw="617.044" roll="493.635" />
+        <drag forward="220" reverse="800" horizontal="300" vertical="300" pitch="1350" yaw="1350" roll="1350" />
+      </physics>
+      <thruster tags="extralarge" />
+      <ship type="battleship" />
+    </properties>
+
+      <!-- CONNECTIONS LINKED TO MACROS -->
+    <connections>
+      <connection ref="con_cockpit">
+        <macro ref="bridge_arg_xl_01_macro" connection="con_cockpit" />
+      </connection>
+
+      <!-- GENERIC FREIGHT STORAGE -->
+      <connection ref="con_storage">
+        <macro ref="storage_leviathan_macro" connection="ShipConnection" />
+      </connection>
+      
+      <!-- XS DOCK + STORAGE -->
+      <connection ref="con_dock_xs">
+        <macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component" />
+      </connection>
+      <connection ref="shipstorage_xs">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection>
+
+      <!-- S DOCK + STORAGE -->
+      <connection ref="dockarea_s">
+        <macro ref="dockarea_arg_s_ship_03_macro" connection="Connection01" />
+      </connection>
+      <connection ref="shipstorage_s">
+        <macro ref="shipstorage_gen_s_01_macro" connection="object" />
+      </connection>
+
+      <!-- M DOCK + STORAGE -->
+      <connection ref="dockarea_m_1">
+        <macro ref="dockarea_arg_m_ship_01_macro" connection="Connection01" />
+      </connection>
+      <connection ref="dockarea_m_2">
+        <macro ref="dockarea_arg_m_ship_01_macro" connection="Connection01" />
+      </connection>
+      <connection ref="shipstorage_m">
+        <macro ref="shipstorage_matt_m_leviathan_macro" connection="object" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

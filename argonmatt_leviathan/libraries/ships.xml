@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff> 
+	<add sel="//ships">
+		<ship id="leviathan" group="arg_leviathan_xl">
+			<category tags="[military, battleship, mission]" faction="[argon]" size="ship_xl"/>
+			<pilot>
+				<select faction="argon" tags="fighterpilot"/>
+			</pilot>
+			<drop ref="ship_large_military"/>
+			<people ref="argon_military_crew"/>
+		</ship>
+	</add>
+</diff>

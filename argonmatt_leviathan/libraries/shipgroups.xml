@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<diff>
+	<add sel="//groups">
+		<group name="arg_leviathan_xl">
+			<select macro="leviathan_macro"/>
+		</group>
+
+		<group name="leviathan_medium_escort">
+			<!-- 1/2 Chance of Cerberus / Minotaur spawn -->
+			<select macro="ship_arg_m_frigate_01_a_macro" weight="1"/>
+			<select macro="ship_arg_m_bomber_01_a_macro" weight="1"/>
+		</group>
+
+		<group name="leviathan_fighter_escort">
+			<!-- Each 1/3rd Chance of Nova / Quasar / Eclipse spawn -->
+			<select macro="ship_arg_s_fighter_01_a_macro" weight="1"/>
+			<select macro="ship_arg_s_fighter_04_a_macro" weight="1"/>
+			<select macro="ship_arg_s_heavyfighter_02_a_macro" weight="1"/>
+		</group>
+	</add>
+</diff>
